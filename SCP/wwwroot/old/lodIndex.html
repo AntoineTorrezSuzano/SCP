@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link rel="stylesheet" href="frontend/css/timer_panel.css">
+    <link rel="stylesheet" href="frontend/css/refresh_panel.css">
+    <link rel="stylesheet" href="frontend/css/badgesDisplay.css">
+    <link rel="stylesheet" href="frontend/css/html_body.css">
+    <title>Shelly Panel</title>
+    <script type="module" src="/backend/main.js"></script>
+    <script src="/backend/calendar.js"></script>
+    <!-- <script src="/frontend/scripts/badgesAndStamps.js"></script> -->
+</head>
+
+<body>
+    <div class="main_container">
+        <div id="marquee_menu">
+            <marquee behavior="alternate" scrollamount="10" class="badgesDisplay"></marquee>
+        </div>
+        <div class="panel">
+            <div class="stats">
+                <span id="refresh_panel">
+                    <button id="refresh">
+                        <div></div>
+                    </button>
+                    <span id="refresh_time_left"></span>
+                </span>
+                <hr>
+                <div>status: <span id="output_status"></span></div>
+            </div>
+            <button id="toggle">
+                <div>
+                    <div>
+                    </div>
+                </div>
+            </button>
+            <div id="timer_panel">
+                <div id="timer_title">Timer</div>
+                <input id="timer_set" type="number"></input>
+                <div id="timer_display"></div>
+                <button id="timer_start">Start</button>
+                <button id="timer_stop">Stop</button>
+
+            </div>
+        </div>
+        <!-- <div class=badgesDisplay></div> -->
+        <div id="marquee_menu">
+            <marquee behavior="alternate" scrollamount="10" class="stampsDisplay"></marquee>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

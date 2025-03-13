@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelly Home</title>
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link rel="stylesheet" href="frontend/css/calendarContainer.css">
+    <link rel="stylesheet" href="frontend/css/onOffButtons.css">
+
+    <script type="module" src="/backend/main.js"></script>
+    <script type="module" src="/backend/calendar.js"></script>
+
+</head>
+
+<body>
+    <h1>Shelly Home</h1>
+    <div id="toggle" class="container">
+
+        <div class="barriere">
+
+            <div class="box"></div>
+            <span class="textBox">Barrière 1</span>
+            <div class="status">
+                <div id="onLed" class="led gray"></div>
+                <div id="offLed" class="led white"></div>
+            </div>
+
+            <div id="buttonOn"></div>
+        </div>
+
+
+
+    </div>
+
+    <br>
+    <div id="on-off-container">
+        <button class="button-on-pushable " role="button" id="buttonTurnOn">
+            <span class="button-on-shadow"></span>
+            <span class="button-on-edge"></span>
+            <span class="button-on-front text">
+                On
+            </span>
+        </button>
+        <button class="button-off-pushable " role="button" id="buttonTurnOff">
+            <span class="button-off-shadow"></span>
+            <span class="button-off-edge"></span>
+            <span class="button-off-front text">
+                Off
+            </span>
+        </button>
+
+    </div>
+
+    <div id="calendarContainer">
+        <div id="nextEventContainer">
+            <h1>Next Event</h1>
+            <h2 id="calendarNextEventSubject">Subject: </h1>
+                <h2 id="calendarNextEventStartDate">Start date: </h1>
+                    <h2 id="calendarNextEventEndDate">End date: </h1>
+                        <h2 id="calendarNextEventTimesLeft">Times Left until start: </h1>
+                            <h2 id="calendarNextEventTimesLeftUntilEnd">Times Left Until End: </h1>
+
+        </div>
+    </div>
+    <div id="timer_panel">
+        <div id="timer_title">Timer</div>
+        <input id="timer_set" type="number"></input>
+        <div id="timer_display"></div>
+        <button id="timer_start">Start</button>
+
+    </div>
+
+
+</body>
+
+</html>

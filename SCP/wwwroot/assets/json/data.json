@@ -1,0 +1,590 @@
+{
+   "@odata.context":"https://graph.microsoft.com/v1.0/$metadata#users('48d31887-5fad-4d73-a9f5-3c356e68a038')/events(subject,body,bodyPreview,organizer,attendees,start,end,location)",
+   "value":[
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZx+Q==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKzAAA=",
+         "subject":"New Product Regulations Touchpoint",
+         "bodyPreview":"New Product Regulations Strategy Online Touchpoint Meeting\r\n\r\n\r\nYou're receiving this message because you're a member of the Engineering group. If you don't want to receive any messages or events from this group, stop following it in your inbox.\r\n\r\nView g",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nNew Product Regulations Strategy Online Touchpoint Meeting\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nEngineering</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2025-03-12T15:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2025-03-12T15:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Conf Room Rainier",
+            "locationType":"default",
+            "uniqueId":"Conf Room Rainier",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Engineering",
+                  "address":"engineering@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Irvin Sayers",
+                  "address":"IrvinS@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Engineering",
+               "address":"engineering@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZx/A==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKyAAA=",
+         "subject":"Latin American Product Manual Group",
+         "bodyPreview":"Focus group to evaluate and update product manuals in South and Central America\r\n\r\n\r\nYou're receiving this message because you're a member of the Engineering group. If you don't want to receive any messages or events from this group, stop following it in ",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nFocus group to evaluate and update product manuals in South and Central America\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nEngineering</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2015-01-05T21:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2015-01-05T22:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Mt. Adams",
+            "locationType":"default",
+            "uniqueId":"Mt. Adams",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Engineering",
+                  "address":"engineering@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Ben Walters",
+                  "address":"BenW@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Engineering",
+               "address":"engineering@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZx/Q==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKxAAA=",
+         "subject":"DG2000 Data Sheets",
+         "bodyPreview":"Hello Engineering team. With the upcoming launch, let's plan an ongoing touchpoint to discuss progress.\r\n\r\n\r\nYou're receiving this message because you're a member of the Engineering group. If you don't want to receive any messages or events from this grou",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nHello Engineering team. With the upcoming launch, let's plan an ongoing touchpoint to discuss progress.\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nEngineering</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/engineering@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2014-11-18T21:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2014-11-18T23:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Mt. Hood",
+            "locationType":"default",
+            "uniqueId":"Mt. Hood",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Engineering",
+                  "address":"engineering@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Lee Gu",
+                  "address":"LeeG@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Engineering",
+               "address":"engineering@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyAA==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKwAAA=",
+         "subject":"Online Marketing Weekly Sync",
+         "bodyPreview":"In the event of a schedule conflict we will be recording the meeting so you can view it later. Please communicate any information you would share during the meeting to your supervisor/manager prior.\r\n\r\n\r\nYou're receiving this message because you're a memb",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nIn the event of a schedule conflict we will be recording the meeting so you can view it later. Please communicate any information you would share during the meeting to your supervisor/manager prior.\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nMarketing</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2014-11-03T18:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2014-11-03T18:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Online",
+            "locationType":"default",
+            "uniqueId":"Online",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Marketing",
+                  "address":"Marketing@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Lynne Robbins",
+                  "address":"LynneR@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Marketing",
+               "address":"Marketing@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyAg==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKvAAA=",
+         "subject":"Cloud and Mobile Working Group",
+         "bodyPreview":"Monthly touchpoint to discuss\r\n\r\n\r\nYou're receiving this message because you're a member of the Marketing group. If you don't want to receive any messages or events from this group, stop following it in your inbox.\r\n\r\nView group conversations   |   View g",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMonthly touchpoint to discuss\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nMarketing</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2015-01-08T19:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2015-01-08T20:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Online",
+            "locationType":"default",
+            "uniqueId":"Online",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Marketing",
+                  "address":"Marketing@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Isaiah Langer",
+                  "address":"IsaiahL@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Marketing",
+               "address":"Marketing@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyBA==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKuAAA=",
+         "subject":"Cloud and Mobile Professionals",
+         "bodyPreview":"Moble and cloud monthly professional group. Let Isaiah know if you would like to attend.\r\n\r\n\r\nYou're receiving this message because you're a member of the Marketing group. If you don't want to receive any messages or events from this group, stop following",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMoble and cloud monthly professional group. Let Isaiah know if you would like to attend.\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nMarketing</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2014-11-12T02:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2014-11-12T04:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"2345 5th St. Suite M, Redmond WA. 89052",
+            "locationType":"default",
+            "uniqueId":"2345 5th St. Suite M, Redmond WA. 89052",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Marketing",
+                  "address":"Marketing@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Isaiah Langer",
+                  "address":"IsaiahL@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Marketing",
+               "address":"Marketing@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyBg==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKtAAA=",
+         "subject":"Server Upgrades",
+         "bodyPreview":"Hello Online Marketing team. We will be conducting server upgrades and infrastructure improvements.\r\n\r\n\r\nYou're receiving this message because you're a member of the Marketing group. If you don't want to receive any messages or events from this group, sto",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nHello Online Marketing team. We will be conducting server upgrades and infrastructure improvements.\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nMarketing</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2015-01-10T16:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2015-01-11T01:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Server Room",
+            "locationType":"default",
+            "uniqueId":"Server Room",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Marketing",
+                  "address":"Marketing@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Johanna Lorenz",
+                  "address":"JohannaL@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Marketing",
+               "address":"Marketing@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyCA==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKsAAA=",
+         "subject":"Responsive Design Kick-Off Meeting",
+         "bodyPreview":"Kick-Off meeting for the Responsive Design Project\r\n\r\n\r\nYou're receiving this message because you're a member of the Marketing group. If you don't want to receive any messages or events from this group, stop following it in your inbox.\r\n\r\nView group conve",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nKick-Off meeting for the Responsive Design Project\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nMarketing</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/Marketing@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2015-01-08T18:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2015-01-08T19:00:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Mt. Adams",
+            "locationType":"default",
+            "uniqueId":"Mt. Adams",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Marketing",
+                  "address":"Marketing@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Isaiah Langer",
+                  "address":"IsaiahL@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Marketing",
+               "address":"Marketing@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyCg==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKrAAA=",
+         "subject":"Forecasting",
+         "bodyPreview":"You're receiving this message because you're a member of the Product Launch Event group. If you don't want to receive any messages or events from this group, stop following it in your inbox.\r\n\r\nView group conversations   |   View group files",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nProduct Launch Event</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2016-11-02T17:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2016-11-02T18:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Conf Room Rainier",
+            "locationType":"default",
+            "uniqueId":"Conf Room Rainier",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Product Launch Event",
+                  "address":"productlaunchevent@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Henrietta Mueller",
+                  "address":"HenriettaM@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Lidia Holloway",
+                  "address":"LidiaH@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Emily Braun",
+                  "address":"EmilyB@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Product Launch Event",
+               "address":"productlaunchevent@M365x214355.onmicrosoft.com"
+            }
+         }
+      },
+      {
+         "@odata.etag":"W/\"IiLKjG2I7E+Xv0+ys6MD0wAGQWZyDA==\"",
+         "id":"AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAAAAAENAAAiIsqMbYjsT5e-T7KzowPTAAAa_WKqAAA=",
+         "subject":"Usability Reporting Review",
+         "bodyPreview":"You're receiving this message because you're a member of the Product Launch Event group. If you don't want to receive any messages or events from this group, stop following it in your inbox.\r\n\r\nView group conversations   |   View group files",
+         "body":{
+            "contentType":"html",
+            "content":"<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<div id=\"a59ada49-a492-4f1d-ac57-74be3a4194fc\" style=\"display:inline-block\">\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:50px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:18px; padding:0; border-width:0 0 1px 0; border-style:none none solid none; border-color:#EAEAEA\">\r\n&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table cellspacing=\"0\" style=\"table-layout:fixed; width:90%; line-height:17px; border:0 none black\">\r\n<tbody>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; color:#666666; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\nYou're receiving this message because you're a member of the <a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nProduct Launch Event</a> group. If you don't want to receive any messages or events from this group,\r\n<a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=unsubscribe\" id=\"BD5134C6-8D33-4ABA-A0C4-08581FDF89DB\" style=\"color:#0072C6; text-decoration:none; font-size:12px; font-family:'Segoe UI Semibold','Segoe WP Semibold','Segoe UI','Segoe WP',sans-serif\">\r\nstop following it in your inbox</a>.</td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding:0; border:0 none black; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">\r\n<span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=conversations\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group conversations</a></span><span style=\"color:#C8C8C8\">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span style=\"display:inline-block\"><a href=\"https://outlook.office365.com/owa/productlaunchevent@M365x214355.onmicrosoft.com/groupsubscription.ashx?realm=M365x214355.onmicrosoft.com&amp;source=EscalatedMessage&amp;action=files\" style=\"color:#666666; text-decoration:none; font-size:12px; font-family:'Segoe UI','Segoe WP',sans-serif\">View\r\n group files</a></span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"height:17px; padding:0; border:0 none black\">&nbsp;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"
+         },
+         "start":{
+            "dateTime":"2014-11-03T21:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "end":{
+            "dateTime":"2014-11-03T22:30:00.0000000",
+            "timeZone":"UTC"
+         },
+         "location":{
+            "displayName":"Conf Room Rainier",
+            "locationType":"default",
+            "uniqueId":"Conf Room Rainier",
+            "uniqueIdType":"private"
+         },
+         "attendees":[
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Product Launch Event",
+                  "address":"productlaunchevent@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Patti Fernandez",
+                  "address":"PattiF@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Grady Archie",
+                  "address":"GradyA@M365x214355.onmicrosoft.com"
+               }
+            },
+            {
+               "type":"required",
+               "status":{
+                  "response":"none",
+                  "time":"0001-01-01T00:00:00Z"
+               },
+               "emailAddress":{
+                  "name":"Emily Braun",
+                  "address":"EmilyB@M365x214355.onmicrosoft.com"
+               }
+            }
+         ],
+         "organizer":{
+            "emailAddress":{
+               "name":"Product Launch Event",
+               "address":"productlaunchevent@M365x214355.onmicrosoft.com"
+            }
+         }
+      }
+   ],
+   "@odata.nextLink":"https://graph.microsoft.com/v1.0/me/events?%24select=subject%2cbody%2cbodyPreview%2corganizer%2cattendees%2cstart%2cend%2clocation&%24top=10&%24skip=10"
+}

@@ -1,0 +1,112 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.438);
+    align-items: center;
+}
+
+.panel{
+    height: 700px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body{
+    background-color: rgb(24, 22, 48);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#refresh{
+    --button-size: 50px;
+    height: var(--button-size);
+    width: var(--button-size);
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+#refresh:active{
+    background-color: rgb(185, 185, 185);
+}
+
+#refresh > div {
+    display: inline-block;
+    position: relative;
+    border-color: transparent rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .225em;
+    height: 1.5em;
+    margin: .25em;
+    width: 1.5em;
+    &:before,
+    &:after {
+        border-style: solid;
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        transform: rotate(-45deg);
+    }
+    &:after {
+        border-color: transparent transparent transparent rgb(0, 0, 0);
+        border-width: .3125em 0 .3125em .5em;
+        top: -.3125em;
+        left: .0625em;
+    }
+    &:before {
+        border-color: transparent rgb(0, 0, 0) transparent transparent;
+        border-width: .3125em .5em .3125em 0;
+        bottom: -.3125em;
+        right: .0625em;
+    }
+}
+
+#toggle{
+    --button-size: 200px;
+    background-color: rgb(128, 128, 128);
+    height: var(--button-size);
+    width:  var(--button-size);
+    border: calc(var(--button-size) * 0.04) solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+#toggle  > div {
+    background-color: rgba(0, 0, 0, 0);
+    height: calc(var(--button-size) * 0.45);
+    width: calc(var(--button-size) * 0.45);
+    border: calc(var(--button-size) * 0.10) solid white;
+    border-radius: 50%;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style:dotted;
+    display: flex;
+    justify-content:center;
+
+}
+#toggle > div > div{
+    background-color: white;
+    height: calc(var(--button-size) * 0.35);
+    width: calc(var(--button-size) * 0.12);
+    border-radius: calc(var(--button-size) * 0.06);
+    transform: translateY(calc(var(--button-size) * -0.10));
+}
+
+.stats{
+    height: 400px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 10px;
+
+}

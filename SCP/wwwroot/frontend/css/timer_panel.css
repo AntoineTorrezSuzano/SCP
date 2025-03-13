@@ -1,0 +1,43 @@
+#timer_panel{
+    background-color: rgba(0, 0, 0, 0.151);
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-areas: 
+        "title title"
+        "setTime setTime"
+        "timeLeft timeLeft"
+        "startBtn stopBtn";
+        
+}
+#timer_panel > #timer_title {
+    font-size: 35px;
+    grid-area: title;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.322);
+    
+}
+#timer_panel > #timer_set {
+    grid-area: setTime;
+
+}
+#timer_panel > #timer_display{
+    background-color: rgba(0, 0, 0, 0.295);
+    grid-area: timeLeft;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+
+
+}
+#timer_display::after{
+    content: "s";
+}
+#timer_panel > #timer_start{
+    grid-area: startBtn;
+}
+
+#timer_panel > #timer_stop{
+    grid-area: stopBtn;
+}

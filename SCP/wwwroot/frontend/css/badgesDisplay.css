@@ -1,0 +1,24 @@
+/* .badgesDisplay{
+    /* width: 100vw; */
+    /* height: 40px; */
+    /* background-color: rgba(0, 0, 0, 0.589); */
+    /* display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+} */
+
+.badgesDisplay img{
+    height:31;
+    width: 88;
+}
+
+.stampsDisplay img {
+    height: 56;
+    width: 99;
+}
+#marquee_menu{
+    height: 100%;
+    width: 800px;
+}

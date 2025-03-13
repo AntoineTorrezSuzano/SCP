@@ -1,0 +1,15 @@
+#calendarContainer{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#nextEventContainer > h2{
+    text-align: left;
+    
+}

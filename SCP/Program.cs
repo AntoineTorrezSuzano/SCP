@@ -1,3 +1,5 @@
+using SCP;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,7 +18,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddSingleton(provider => GraphHelper.GetGraphClient()); //Added with the graphHelper
 var app = builder.Build();
 app.UseCors("MyCorsPolicy");
 app.UseStaticFiles();
@@ -30,6 +32,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -37,3 +42,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+

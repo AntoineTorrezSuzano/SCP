@@ -1,3 +1,13 @@
+# Projet SCP - Server C# Project
+SCP est un projet de serveur C# qui permet de gÈrer un relais et de 
+rÈcupÈrer des informations sur un calendrier.
+
+Il possËde deux endpoints principaux : Calendar et Relay.
+
+SCP possËde un un interface en Web qui permet d'interagir avec le relais 
+ainsi que d'avoir un aperÁu des informations du calendrier.
+
+
 ## Endpoints Calendar
 
   - [GET /Calendar]
@@ -12,14 +22,14 @@
 
 ## Vue Rapide des Endpoints Calendar
 
-- **GET /Calendar/nextEvent** : Retourne le prochain √©v√©nement √† venir
-- **GET /Calendar/nextEvent/subject** : Affiche le sujet du prochain √©v√©nement
-- **GET /Calendar/nextEvent/beginning** : Fournit l'heure de d√©but du prochain √©v√©nement sous forme brute
-- **GET /Calendar/nextEvent/beginning/YMDHM** : Fournit l'heure de d√©but format√©e en `yyyy-MM-dd, HH:mm`
-- **GET /Calendar/nextEvent/ending** : Fournit l'heure de fin du prochain √©v√©nement sous forme brute
-- **GET /Calendar/nextEvent/ending/YMDHM** : Fournit l'heure de fin format√©e en `yyyy-MM-dd, HH:mm`
-- **GET /Calendar/nextEvent/TimeLeftUntilNextEvent/HMS** : Indique le temps restant avant le d√©but du prochain √©v√©nement sous format `hh:mm:ss`
-- **GET /Calendar/nextEvent/TimeLeftUntilNextEventEnd/HMS** : Indique le temps restant avant la fin du prochain √©v√©nement sous format `hh:mm:ss`
+- **GET /Calendar/nextEvent** : Retourne le prochain ÈvÈnement ‡ venir
+- **GET /Calendar/nextEvent/subject** : Affiche le sujet du prochain ÈvÈnement
+- **GET /Calendar/nextEvent/beginning** : Fournit l'heure de dÈbut du prochain ÈvÈnement sous forme brute
+- **GET /Calendar/nextEvent/beginning/YMDHM** : Fournit l'heure de dÈbut formatÈe en `yyyy-MM-dd, HH:mm`
+- **GET /Calendar/nextEvent/ending** : Fournit l'heure de fin du prochain ÈvÈnement sous forme brute
+- **GET /Calendar/nextEvent/ending/YMDHM** : Fournit l'heure de fin formatÈe en `yyyy-MM-dd, HH:mm`
+- **GET /Calendar/nextEvent/TimeLeftUntilNextEvent/HMS** : Indique le temps restant avant le dÈbut du prochain ÈvÈnement sous format `hh:mm:ss`
+- **GET /Calendar/nextEvent/TimeLeftUntilNextEventEnd/HMS** : Indique le temps restant avant la fin du prochain ÈvÈnement sous format `hh:mm:ss`
 
 ## A savoir
 
@@ -30,28 +40,28 @@ Calendar utilise un json au lieu de l'api de outloot "API GRAPH" car il n'est po
 
 ### GET /Calendar/nextEvent
 
-Retourne le prochain √©v√©nement a venir du calendrier
+Retourne le prochain ÈvÈnement a venir du calendrier
 
 - **URL**: `/Calendar/nextEvent`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
 
 ### GET /Calendar/nextEvent/subject
 
-Retourne le sujet du prochain √©v√©nement
+Retourne le sujet du prochain ÈvÈnement
 
 - **URL**: `/Calendar/nextEvent/subject`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**: 
     ```json
-    { "subject": "Titre de l'√©v√©nement" }
+    { "subject": "Titre de l'ÈvÈnement" }
     ```
 
 ### GET /Calendar/nextEvent/beginning
 
-Retourne l'heure de d√©but du prochain √©v√©nement sous format brute
+Retourne l'heure de dÈbut du prochain ÈvÈnement sous format brute
 
 - **URL**: `/Calendar/nextEvent/beginning`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**: 
     ```json
     { "beginning": "2025-03-12T15:30:00" }
@@ -59,10 +69,10 @@ Retourne l'heure de d√©but du prochain √©v√©nement sous format brute
 
 ### GET /Calendar/nextEvent/beginning/YMDHM
 
-Retourne l'heure de d√©but du prochain √©v√©nement format√© en `yyyy-MM-dd, HH:mm`
+Retourne l'heure de dÈbut du prochain ÈvÈnement formatÈ en `yyyy-MM-dd, HH:mm`
 
 - **URL**: `/Calendar/nextEvent/beginning/YMDHM`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**:
     ```json
     { "beginning": "2025-03-12, 15:30" }
@@ -70,11 +80,10 @@ Retourne l'heure de d√©but du prochain √©v√©nement format√© en `yyyy-MM-dd, HH:m
 
 ### GET /Calendar/nextEvent/ending
 
-Retourne l'heure de fin du prochain √©v√©nement sous format brute
+Retourne l'heure de fin du prochain ÈvÈnement sous format brute
 
 - **URL**: `/Calendar/nextEvent/ending`
-- **M√©thode**: `GET`
-
+- **MÈthode**: `GET`
   - **200 OK**:
     ```json
     { "ending": "2025-03-12T17:00:00" }
@@ -82,11 +91,10 @@ Retourne l'heure de fin du prochain √©v√©nement sous format brute
 
 ### GET /Calendar/nextEvent/ending/YMDHM
 
-Retourne l'heure de fin du prochain √©v√©nement format√© en `yyyy-MM-dd, HH:mm`.
+Retourne l'heure de fin du prochain ÈvÈnement formatÈ en `yyyy-MM-dd, HH:mm`.
 
 - **URL**: `/Calendar/nextEvent/ending/YMDHM`
-- **M√©thode**: `GET`
-
+- **MÈthode**: `GET`
   - **200 OK**:
     ```json
     { "ending": "2025-03-12, 17:00" }
@@ -94,10 +102,10 @@ Retourne l'heure de fin du prochain √©v√©nement format√© en `yyyy-MM-dd, HH:mm`.
 
 ### GET /Calendar/nextEvent/TimeLeftUntilNextEvent/HMS
 
-Retourne le temps restant jusqu'au d√©but du prochain √©v√©nement au format `hh:mm:ss`.
+Retourne le temps restant jusqu'au dÈbut du prochain ÈvÈnement au format `hh:mm:ss`.
 
 - **URL**: `/Calendar/nextEvent/TimeLeftUntilNextEvent/HMS`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**:
     ```json
     { "timeLeft": "02:15:30" }
@@ -105,10 +113,10 @@ Retourne le temps restant jusqu'au d√©but du prochain √©v√©nement au format `hh:
 
 ### GET /Calendar/nextEvent/TimeLeftUntilNextEventEnd/HMS
 
-Retourne le temps restant jusqu'√† la fin du prochain √©v√©nement au format `hh:mm:ss`.
+Retourne le temps restant jusqu'‡ la fin du prochain ÈvÈnement au format `hh:mm:ss`.
 
 - **URL**: `/Calendar/nextEvent/TimeLeftUntilNextEventEnd/HMS`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**:
     ```json
     { "timeLeft": "01:05:20" }
@@ -124,41 +132,41 @@ Retourne le temps restant jusqu'√† la fin du prochain √©v√©nement au format `hh:
 
 ## Vue Rapide des Endpoints Relay
 
-- **Toggle** : Toggle l'√©tat du relais
+- **Toggle** : Toggle l'Ètat du relais
 - **TurnOn** : Active le relais
-- **TurnOff** : D√©sactive le relais
-- **getStatus** : R√©cup√®re le statut du relais (true ou false)
-- **Timer** : Programme une bascule du relais apr√®s un certain d√©lai en seconds
+- **TurnOff** : DÈsactive le relais
+- **getStatus** : RÈcupËre le statut du relais (true ou false)
+- **Timer** : Programme une bascule du relais aprËs un certain dÈlai en seconds
 
 ## Endpoints
 
 ### GET /Relay/Toggle
 
-Permet de basculer l'√©tat du relais (toggle).
+Permet de basculer l'Ètat du relais (toggle).
 
 - **URL**: `/Relay/Toggle`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
 
 ### GET /Relay/TurnOn
 
 Active le relais.
 
 - **URL**: `/Relay/TurnOn`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
 
 ### GET /Relay/TurnOff
 
-D√©sactive le relais.
+DÈsactive le relais.
 
 - **URL**: `/Relay/TurnOff`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
 
 ### GET /Relay/getStatus
 
 Retourne le statut du relais.
 
 - **URL**: `/Relay/getStatus`
-- **M√©thode**: `GET`
+- **MÈthode**: `GET`
   - **200 OK**: 
     ```json
     true
@@ -166,10 +174,10 @@ Retourne le statut du relais.
 
 ### POST /Relay/Timer
 
-D√©finit un timer pour toggle le relais apr√®s un certain d√©lai.
+DÈfinit un timer pour toggle le relais aprËs un certain dÈlai.
 
 - **URL**: `/Relay/Timer`
-- **M√©thode**: `POST`
+- **MÈthode**: `POST`
   - **Body (JSON)**:
     ```json
     {

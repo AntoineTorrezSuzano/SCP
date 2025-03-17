@@ -1,47 +1,33 @@
-﻿using Azure.Core;
-using Azure.Identity;
+﻿using Azure.Identity;
 using Microsoft.Graph;
-using Microsoft.Graph.Models;
-using Microsoft.Graph.Me.SendMail;
 
-namespace SCP
+public static class GraphHelper
 {
-    public class GraphHelper
+    private static GraphServiceClient? _graphClient;
+
+    public static GraphServiceClient GetGraphClient()
     {
-  
-        public static void Initialize()
+        if (_graphClient is not null)
+            return _graphClient;
+
+        var scopes = new[] { "User.Read", "Calendars.Read" };
+        var tenantId = "0bd66e42-d830-4cdc-b580-f835a405d038";
+        var clientId = "5e381e57-3c53-442b-b370-7d739e4a0a5a";
+
+        var options = new DeviceCodeCredentialOptions
         {
-            var scopes = new[] { "User.Read" };
-
-            // Multi-tenant apps can use "common",
-            // single-tenant apps must use the tenant ID from the Azure portal
-            var tenantId = "common";
-
-            // Value from app registration
-            var clientId = "YOUR_CLIENT_ID";
-
-            // using Azure.Identity;
-            var options = new DeviceCodeCredentialOptions
+            AuthorityHost = AzureAuthorityHosts.AzurePublicCloud,
+            ClientId = clientId,
+            TenantId = tenantId,
+            DeviceCodeCallback = (code, cancellation) =>
             {
-                AuthorityHost = AzureAuthorityHosts.AzurePublicCloud,
-                ClientId = clientId,
-                TenantId = tenantId,
-                // Callback function that receives the user prompt
-                // Prompt contains the generated device code that user must
-                // enter during the auth process in the browser
-                DeviceCodeCallback = (code, cancellation) =>
-                {
-                    Console.WriteLine(code.Message);
-                    return Task.FromResult(0);
-                },
-            };
+                Console.WriteLine(code.Message);
+                return Task.CompletedTask;
+            },
+        };
 
-            // https://learn.microsoft.com/dotnet/api/azure.identity.devicecodecredential
-            var deviceCodeCredential = new DeviceCodeCredential(options);
-
-            var graphClient = new GraphServiceClient(deviceCodeCredential, scopes);
-        }
-
-
+        var deviceCodeCredential = new DeviceCodeCredential(options);
+        _graphClient = new GraphServiceClient(deviceCodeCredential, scopes);
+        return _graphClient;
     }
 }

@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Graph;
+using Microsoft.Graph.Models;
 using System;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
+
 
 namespace SCP.Controllers;
 
@@ -11,12 +14,36 @@ namespace SCP.Controllers;
 [Route("[controller]")]
 public class CalendarController : ControllerBase
 {
+    private readonly GraphServiceClient _graphClient;
     private readonly ILogger<CalendarController> _logger;
 
-    public CalendarController(ILogger<CalendarController> logger)
+    public CalendarController(ILogger<CalendarController> logger, GraphServiceClient graphClient)
     {
         _logger = logger;
+        _graphClient = graphClient;
     }
+
+    // Centralized method to fetch calendar events using the new v5 syntax.
+    private async Task<EventCollectionResponse?> GetCalendarEventsAsync(DateTime startDateTime, DateTime endDateTime)
+    {
+        try
+        {
+            // Using the new GetAsync with a configuration lambda.
+            var response = await _graphClient.Me.CalendarView.GetAsync(config =>
+            {
+                config.QueryParameters.StartDateTime = startDateTime.ToString("o");
+                config.QueryParameters.EndDateTime = endDateTime.ToString("o");
+                config.Headers.Add("Prefer", "outlook.timezone=\"UTC\"");
+            });
+            return response;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error retrieving calendar events from Microsoft Graph.");
+            return null;
+        }
+    }
+
 
     [HttpGet(Name = "getCalendar")]
     public async Task<IActionResult> GetCalendarAsJson()
@@ -47,6 +74,22 @@ public class CalendarController : ControllerBase
             _logger.LogError(ex, "Error retrieving calendar data.");
             return StatusCode(500, "Internal server error.");
         }
+    }
+
+
+
+    [HttpGet("calendarview")]
+    public async Task<IActionResult> GetCalendarView()
+    {
+        DateTime startDateTime = new DateTime(2025, 3, 13, 9, 46, 34, 743, DateTimeKind.Utc);
+        DateTime endDateTime = new DateTime(2025, 3, 20, 9, 46, 34, 743, DateTimeKind.Utc);
+
+        var events = await GetCalendarEventsAsync(startDateTime, endDateTime);
+        if (events == null)
+        {
+            return StatusCode(500, "Error retrieving calendar events from Microsoft Graph.");
+        }
+        return Ok(events);
     }
 
     [HttpGet("nextEvent")]
